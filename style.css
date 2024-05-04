@@ -1,0 +1,134 @@
+body {
+    font-family: "Lobster", cursive;
+    background-color: #f8eba2;
+    border-radius: 5px;
+  }
+  
+  header {
+    background-color: #b9f0ea;
+    border-bottom: 8px solid #20cdf8;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .section-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    text-align: center; /* Centralizar os botões */
+    margin-top: 20px; /* Espaçamento acima dos botões */
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 30px; /* Espaçamento entre os botões */
+    background-color: #f8aed3; /* Rosa mágico */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remover sublinhado em links */
+  }
+  
+  .button:hover {
+    background-color: #f399c0; /* Rosa mais escuro ao passar o mouse */
+  }  
+
+  h2 {
+    text-align: center;
+    background-color: rgb(238, 152, 250);
+    color: #fff;
+    border-radius: 15px;
+  }
+  
+  .vestido-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease;
+  }
+
+  .vestido-img:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+  }
+
+  /* Estilos para as descrições dos vestidos */
+.vestido-desc {
+    background-color: rgba(251, 138, 195, 0.8); /* Rosa mágico com transparência */
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Espaçamento inferior entre a descrição e a imagem */
+  }
+  
+  /* Estilos adicionais para destacar o texto */
+  .vestido-desc h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .vestido-desc p {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para os elementos decorativos */
+  .vestido-desc::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto 10px; /* Centralizar e dar espaçamento abaixo do título */
+  }
+  
+  .vestido-desc::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin: 0 auto; /* Centralizar */
+  }
+  
+
+  section {
+    padding: 20px;
+  }
+
+  #contato{
+    text-align: center;
+    color:#7f4dfc
+    
+  }
+  
+  footer {
+  background-color: #25a7f8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+  @media (max-width: 768px) {
+    /* Estilos para telas menores */
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .vestido {
+      margin-bottom: 20px;
+    }
+  }
+  
