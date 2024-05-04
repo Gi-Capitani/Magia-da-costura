@@ -58,7 +58,7 @@ body {
   }
 
   .vestido-img:hover {
-    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+    transform: scale(2.05); /* Efeito de escala ao passar o mouse */
   }
 
   /* Estilos para as descrições dos vestidos */
